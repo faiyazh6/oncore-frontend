@@ -1,0 +1,21 @@
+.tabsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the tabs and table horizontally */
+  width: 100%;
+  margin-top: 0rem;
+}
+
+.tabList {
+  display: flex;
+  justify-content: center; /* Center the tab list */
+  width: 140%;
+  max-width: 200%; /* Restrict the maximum width */
+  border-bottom: 1px solid #e2e8f0; /* Optional: for a bottom border */
+}
+
+.tabPanel {
+  width: 100%;
+  max-width: 200%;
+  margin-top: 0rem;
+}

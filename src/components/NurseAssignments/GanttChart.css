@@ -1,0 +1,67 @@
+.leftCircle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;  /* Prevent the circle from shrinking */
+    font-size: 10px;  /* Increase font size if needed */
+    font-weight: 700;
+    height: 24px;  /* Increase height */
+    width: 24px;  /* Increase width */
+    margin: 0 4px;
+    border-radius: 50%;
+    padding: 4px;  /* Adjust padding if necessary */
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #5A80F6;
+    background-color: #fff;
+}
+
+/* --------------------------tooltip */
+.MuiTooltip-tooltip {
+    background-color: #fff !important;
+}
+
+.MuiTooltip-arrow {
+    color: #fff
+}
+
+.custom-tooltip {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 0;
+    padding: o;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 220px;
+    font-family: "Inter", sans-serif !important;
+    font-size: 14px;
+    color: #000;
+}
+
+.tooltip-summary {
+    margin-bottom: 8px;
+}
+
+.tooltip-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.tooltip-label {
+    color: #929faf;
+    font-weight: 500;
+}
+
+.tooltip-value {
+    font-weight: 500;
+    color: #000;
+}
+
+.tooltip-notes {
+    margin-top: 8px;
+}
+
+.tooltip-notes .tooltip-label {
+    margin-bottom: 4px;
+}

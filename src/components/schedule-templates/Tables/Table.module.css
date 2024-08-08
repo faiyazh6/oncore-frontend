@@ -1,0 +1,27 @@
+.tableContainer {
+  /*width: 115%;
+  max-width: 200%; /* Adjust this value to make the table wider */
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 0 2rem; /* Optional: Add padding if needed */
+}
+
+.customTable th, .customTable td {
+  text-align: center;
+  font-size: 15px; /* Set font size to 10px */
+  border-right: 1px solid #e2e8f0; /* Add vertical grid lines */
+  padding-left: 16px; /* Add padding to increase column width */
+  padding-right: 16px; /* Add padding to increase column width */
+}
+
+.customTable th:last-child, .customTable td:last-child {
+  border-right: none; /* Remove the border for the last column */
+}
+
+.customTable tbody tr:last-child td {
+  border-bottom: none; /* Remove the border for the last row */
+}
+
+.customTable thead th {
+  font-size: 15px; /* Set font size for table headers */
+}

@@ -1,0 +1,34 @@
+.customButton {
+  background-color: #222E93;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 16px;
+  gap: 6px;
+  height: 39px;
+  min-width: 89px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19.12px;
+  text-align: center;
+}
+
+.customButton:hover {
+  background-color: #1C2373;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+    background: white !important; /* Ensure background is white */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+  }
+  
+  .customButton {
+    display: none; /* Hide buttons during print */
+  }
+}

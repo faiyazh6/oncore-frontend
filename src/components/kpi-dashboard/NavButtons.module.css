@@ -1,0 +1,15 @@
+.menuButton {
+  background-color: #f7fafc; /* same as gray.100 in Chakra UI */
+  border-radius: 0.375rem; /* same as borderRadius="md" in Chakra UI */
+  box-shadow: var(--chakra-shadows-sm); /* same as boxShadow="sm" in Chakra UI */
+  color: #1a202c; /* text color */
+  transition: background-color 0.2s ease;
+}
+  
+.menuButton:hover {
+  background-color: #EEF1F6; /* same as gray.200 in Chakra UI */
+}
+
+.menuButton:active {
+  background-color: #EEF1F6; /* same as gray.300 in Chakra UI */
+}

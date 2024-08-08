@@ -1,0 +1,22 @@
+.chartTitle {
+    font-Size: 14px;
+    font-Weight: 800;
+    text-Align: left;
+    color: #10263F;
+}
+
+.chartCount {
+    font-Size: 14px;
+    font-Weight: 60;
+    letter-Spacing: 0.025em;
+    text-Align: left;
+    color: #10263F !important;
+}
+
+.chartCaption {
+    font-Size: 10px;
+    font-Weight: 400;
+    letter-Spacing: -0.025em;
+    color: #929FAF;
+    text-Align: left;
+}
